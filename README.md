@@ -1,2 +1,4 @@
 # NHL-Fantasy-League
 
+A web-application imitating National Hockey League fantasy game. The project focuses on implementing different Software Design patterns and Architectural patterns. The user can create an account. On successful creation, he will be allocated some virtual money from which he/she can buy team players. Depending on how those players performed in real matches, the user can earn or loose virtual money. 
+The Front-end of the project was implemented using Angular, the back-end was implemented using Spring Boot and the database instance was a MySQL database. The web-scraping technique was implemented in python to collect initial data for the database and to allocate and deallocate money on day to day bases. The application also uses various Design patterns like 'Visitor, Singleton, Abstract Factory, Observer, Dependency Injection' and Architectural patterns like 'MVC, Event-Driven, Layered'.
